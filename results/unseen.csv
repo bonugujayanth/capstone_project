@@ -1,0 +1,12 @@
+held_out_behaviour,detection_rate,avg_detection_time
+delayed_onset,0.84,40.0
+extension_targeted,1.0,0.0
+full_copydelete,1.0,0.0
+full_inplace,1.0,0.0
+header_only,1.0,0.0
+image_level,1.0,0.0
+intermittent,1.0,0.0
+low_and_slow,0.98,0.0
+multithreaded,1.0,0.0
+wide_breadth,1.0,0.0
+wiper,1.0,0.0
