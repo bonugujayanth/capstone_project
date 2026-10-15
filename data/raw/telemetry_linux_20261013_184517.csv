@@ -1,0 +1,22 @@
+chaithanya@chaithanya:~/Documents/project$ python3 vm_telemetry_collector.py   --vm-name lin   --interval 1   --output-dir data/raw   --dataset-dir data/simulator_datasets   --ground-truth-log ground_truth_log.jsonl
+[collector] VM=lin  vcpus=4
+[collector] disks discovered : ['vda']
+[collector] ifaces discovered: ['vnet1']
+[collector] writing -> data/raw/telemetry_linux_20261013_184517.csv
+[collector] interval=1.0s  (Ctrl-C to stop)
+[telemetry] timestamp=2026-10-13T13:15:18.365119+00:00 cpu=0.43% read=0.000 MB/s write=0.000 MB/s read_iops=0.00 write_iops=0.00 files_changed=0.0 inplace_ratio=0.000
+[telemetry] timestamp=2026-10-13T13:15:19.371293+00:00 cpu=0.47% read=0.000 MB/s write=0.000 MB/s read_iops=0.00 write_iops=0.00 files_changed=0.0 inplace_ratio=0.000
+[telemetry] timestamp=2026-10-13T13:15:20.379156+00:00 cpu=0.47% read=0.000 MB/s write=0.000 MB/s read_iops=0.00 write_iops=0.00 files_changed=0.0 inplace_ratio=0.000
+[telemetry] timestamp=2026-10-13T13:15:21.384753+00:00 cpu=0.40% read=0.000 MB/s write=0.000 MB/s read_iops=0.00 write_iops=0.00 files_changed=0.0 inplace_ratio=0.000
+[telemetry] timestamp=2026-10-13T13:15:22.389433+00:00 cpu=0.45% read=0.000 MB/s write=0.000 MB/s read_iops=0.00 write_iops=0.00 files_changed=0.0 inplace_ratio=0.000
+[telemetry] timestamp=2026-10-13T13:15:23.396364+00:00 cpu=5.88% read=0.000 MB/s write=0.000 MB/s read_iops=0.00 write_iops=0.00 files_changed=0.0 inplace_ratio=0.000
+[telemetry] timestamp=2026-10-13T13:15:24.403808+00:00 cpu=7.00% read=0.000 MB/s write=0.000 MB/s read_iops=0.00 write_iops=0.00 files_changed=0.0 inplace_ratio=0.000
+[telemetry] timestamp=2026-10-13T13:15:25.411359+00:00 cpu=6.76% read=0.000 MB/s write=0.000 MB/s read_iops=0.00 write_iops=0.00 files_changed=0.0 inplace_ratio=0.000
+[telemetry] timestamp=2026-10-13T13:15:26.419552+00:00 cpu=12.47% read=0.000 MB/s write=0.000 MB/s read_iops=0.00 write_iops=0.00 files_changed=0.0 inplace_ratio=0.000
+[collector] simulator=run_full_inplace.py; replaying -> data/simulator_datasets/run_full_inplace.csv
+2026-09-20T10:00:00+00:00,70.05,462943836,179485948,1184.47,0.815,0.6,0.983,7.916,6.129,4,108,2,0,462943836.0,0.0,0.0,0.0,0.983,0.0,0.0,0.0,6.129,0.0,0.0,0.0,108.0,0.0,0.0,0.0,70.05,0.0,0.0,0.0,1,108
+2026-09-20T10:00:01+00:00,62.9,419984318,220525358,1008.38,0.879,4.6,0.979,7.893,5.741,7,135,1,0,441464077.0,30376966.494,0.0,-42959518.0,0.981,0.003,0.0,-0.004,5.935,0.274,0.0,-0.388,121.5,19.092,0.0,27.0,66.475,5.056,0.0,-7.15,2,243
+2026-09-20T10:00:02+00:00,53.67,303768627,178266874,1172.02,0.799,0.0,0.988,7.893,6.385,6,223,2,0,395565593.667,82349209.854,0.0,-79587604.5,0.983,0.005,0.0,0.0025,6.085,0.324,0.0,0.128,155.333,60.136,0.0,57.5,62.207,8.212,0.0,-8.19,3,466
+2026-09-20T10:00:03+00:00,46.29,292760590,162825121,989.74,0.779,1.1,0.998,7.884,5.976,3,266,1,0,369864342.75,84635367.531,0.0,-62676542.9,0.987,0.008,0.0,0.0054,6.058,0.27,0.0,0.0185,183.0,73.977,0.0,56.2,58.228,10.406,0.0,-8.051,4,732
+2026-09-20T10:00:04+00:00,74.21,447615204,215885702,745.87,0.819,4.7,0.968,7.859,5.44,2,215,1,0,385414515.0,81125818.103,0.0,-15788099.2,0.983,0.011,0.0,-0.0011,5.934,0.362,0.0,-0.1143,189.4,65.645,0.0,34.5,61.424,11.503,0.0,-0.829,5,947
+2026-09-20T10:00:05+00:00,62.89,492631006,187682695,809.76,0.855,3.5,0.996,7.897,5.161,3,212,1,0,403283930.167,84740867.831,0.0,6294870.6,0.985,0.011,0.0,0.0012,5.805,0.452,0.0,-0.1758,193.167,59.435,0.0,22.9429,61.668,10.306,0.0,-0.2643,6,1159

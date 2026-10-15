@@ -1,0 +1,65 @@
+{
+  "input": "data/labeled_training.csv",
+  "features": [
+    "interval_s",
+    "cpu_pct",
+    "read_iops",
+    "write_iops",
+    "read_bytes_per_s",
+    "write_bytes_per_s",
+    "read_mb_per_s",
+    "write_mb_per_s",
+    "write_iops_fraction",
+    "net_rx_bytes_per_s",
+    "net_tx_bytes_per_s"
+  ],
+  "train_rows": 3693,
+  "test_rows": 924,
+  "train_label_counts": {
+    "0": 3603,
+    "1": 90
+  },
+  "test_label_counts": {
+    "0": 902,
+    "1": 22
+  },
+  "threshold": 0.5,
+  "confusion_matrix_labels_0_1": [
+    [
+      902,
+      0
+    ],
+    [
+      2,
+      20
+    ]
+  ],
+  "roc_auc": 0.9815057448095142,
+  "classification_report": {
+    "0": {
+      "precision": 0.9977876106194691,
+      "recall": 1.0,
+      "f1-score": 0.9988925802879292,
+      "support": 902.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.9523809523809523,
+      "support": 22.0
+    },
+    "accuracy": 0.9978354978354979,
+    "macro avg": {
+      "precision": 0.9988938053097345,
+      "recall": 0.9545454545454546,
+      "f1-score": 0.9756367663344407,
+      "support": 924.0
+    },
+    "weighted avg": {
+      "precision": 0.9978402865571007,
+      "recall": 0.9978354978354979,
+      "f1-score": 0.9977851605758583,
+      "support": 924.0
+    }
+  }
+}

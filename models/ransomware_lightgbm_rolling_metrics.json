@@ -1,0 +1,281 @@
+{
+  "input": "data/labeled_training_rolling.csv",
+  "features": [
+    "interval_s",
+    "cpu_pct",
+    "read_iops",
+    "write_iops",
+    "read_bytes_per_s",
+    "write_bytes_per_s",
+    "read_mb_per_s",
+    "write_mb_per_s",
+    "write_iops_fraction",
+    "net_rx_bytes_per_s",
+    "net_tx_bytes_per_s",
+    "inplace_ratio",
+    "mean_write_entropy",
+    "mean_entropy_delta",
+    "distinct_dirs_touched",
+    "files_modified",
+    "write_bytes_per_s_mean_5s",
+    "write_bytes_per_s_max_5s",
+    "write_bytes_per_s_std_5s",
+    "write_bytes_per_s_sum_5s",
+    "write_bytes_per_s_delta_5s",
+    "write_bytes_per_s_slope_5s",
+    "write_bytes_per_s_mean_10s",
+    "write_bytes_per_s_max_10s",
+    "write_bytes_per_s_std_10s",
+    "write_bytes_per_s_sum_10s",
+    "write_bytes_per_s_delta_10s",
+    "write_bytes_per_s_slope_10s",
+    "write_bytes_per_s_mean_20s",
+    "write_bytes_per_s_max_20s",
+    "write_bytes_per_s_std_20s",
+    "write_bytes_per_s_sum_20s",
+    "write_bytes_per_s_delta_20s",
+    "write_bytes_per_s_slope_20s",
+    "inplace_ratio_mean_5s",
+    "inplace_ratio_max_5s",
+    "inplace_ratio_std_5s",
+    "inplace_ratio_sum_5s",
+    "inplace_ratio_delta_5s",
+    "inplace_ratio_slope_5s",
+    "inplace_ratio_mean_10s",
+    "inplace_ratio_max_10s",
+    "inplace_ratio_std_10s",
+    "inplace_ratio_sum_10s",
+    "inplace_ratio_delta_10s",
+    "inplace_ratio_slope_10s",
+    "inplace_ratio_mean_20s",
+    "inplace_ratio_max_20s",
+    "inplace_ratio_std_20s",
+    "inplace_ratio_sum_20s",
+    "inplace_ratio_delta_20s",
+    "inplace_ratio_slope_20s",
+    "mean_write_entropy_mean_5s",
+    "mean_write_entropy_max_5s",
+    "mean_write_entropy_std_5s",
+    "mean_write_entropy_sum_5s",
+    "mean_write_entropy_delta_5s",
+    "mean_write_entropy_slope_5s",
+    "mean_write_entropy_mean_10s",
+    "mean_write_entropy_max_10s",
+    "mean_write_entropy_std_10s",
+    "mean_write_entropy_sum_10s",
+    "mean_write_entropy_delta_10s",
+    "mean_write_entropy_slope_10s",
+    "mean_write_entropy_mean_20s",
+    "mean_write_entropy_max_20s",
+    "mean_write_entropy_std_20s",
+    "mean_write_entropy_sum_20s",
+    "mean_write_entropy_delta_20s",
+    "mean_write_entropy_slope_20s",
+    "mean_entropy_delta_mean_5s",
+    "mean_entropy_delta_max_5s",
+    "mean_entropy_delta_std_5s",
+    "mean_entropy_delta_sum_5s",
+    "mean_entropy_delta_delta_5s",
+    "mean_entropy_delta_slope_5s",
+    "mean_entropy_delta_mean_10s",
+    "mean_entropy_delta_max_10s",
+    "mean_entropy_delta_std_10s",
+    "mean_entropy_delta_sum_10s",
+    "mean_entropy_delta_delta_10s",
+    "mean_entropy_delta_slope_10s",
+    "mean_entropy_delta_mean_20s",
+    "mean_entropy_delta_max_20s",
+    "mean_entropy_delta_std_20s",
+    "mean_entropy_delta_sum_20s",
+    "mean_entropy_delta_delta_20s",
+    "mean_entropy_delta_slope_20s",
+    "files_modified_mean_5s",
+    "files_modified_max_5s",
+    "files_modified_std_5s",
+    "files_modified_sum_5s",
+    "files_modified_delta_5s",
+    "files_modified_slope_5s",
+    "files_modified_mean_10s",
+    "files_modified_max_10s",
+    "files_modified_std_10s",
+    "files_modified_sum_10s",
+    "files_modified_delta_10s",
+    "files_modified_slope_10s",
+    "files_modified_mean_20s",
+    "files_modified_max_20s",
+    "files_modified_std_20s",
+    "files_modified_sum_20s",
+    "files_modified_delta_20s",
+    "files_modified_slope_20s",
+    "distinct_dirs_touched_mean_5s",
+    "distinct_dirs_touched_max_5s",
+    "distinct_dirs_touched_std_5s",
+    "distinct_dirs_touched_sum_5s",
+    "distinct_dirs_touched_delta_5s",
+    "distinct_dirs_touched_slope_5s",
+    "distinct_dirs_touched_mean_10s",
+    "distinct_dirs_touched_max_10s",
+    "distinct_dirs_touched_std_10s",
+    "distinct_dirs_touched_sum_10s",
+    "distinct_dirs_touched_delta_10s",
+    "distinct_dirs_touched_slope_10s",
+    "distinct_dirs_touched_mean_20s",
+    "distinct_dirs_touched_max_20s",
+    "distinct_dirs_touched_std_20s",
+    "distinct_dirs_touched_sum_20s",
+    "distinct_dirs_touched_delta_20s",
+    "distinct_dirs_touched_slope_20s",
+    "cpu_pct_mean_5s",
+    "cpu_pct_max_5s",
+    "cpu_pct_std_5s",
+    "cpu_pct_sum_5s",
+    "cpu_pct_delta_5s",
+    "cpu_pct_slope_5s",
+    "cpu_pct_mean_10s",
+    "cpu_pct_max_10s",
+    "cpu_pct_std_10s",
+    "cpu_pct_sum_10s",
+    "cpu_pct_delta_10s",
+    "cpu_pct_slope_10s",
+    "cpu_pct_mean_20s",
+    "cpu_pct_max_20s",
+    "cpu_pct_std_20s",
+    "cpu_pct_sum_20s",
+    "cpu_pct_delta_20s",
+    "cpu_pct_slope_20s",
+    "inplace_streak",
+    "cumulative_files_modified"
+  ],
+  "feature_count": 144,
+  "train_rows": 3691,
+  "test_rows": 923,
+  "train_label_counts": {
+    "0": 3604,
+    "1": 87
+  },
+  "test_label_counts": {
+    "0": 901,
+    "1": 22
+  },
+  "threshold": 0.5,
+  "confusion_matrix_labels_0_1": [
+    [
+      901,
+      0
+    ],
+    [
+      0,
+      22
+    ]
+  ],
+  "roc_auc": 1.0,
+  "classification_report": {
+    "0": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 901.0
+    },
+    "1": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 22.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 923.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 923.0
+    }
+  },
+  "top_feature_importances": [
+    {
+      "feature": "net_rx_bytes_per_s",
+      "importance": 386
+    },
+    {
+      "feature": "write_bytes_per_s_delta_20s",
+      "importance": 372
+    },
+    {
+      "feature": "interval_s",
+      "importance": 363
+    },
+    {
+      "feature": "cpu_pct",
+      "importance": 354
+    },
+    {
+      "feature": "write_iops",
+      "importance": 351
+    },
+    {
+      "feature": "write_bytes_per_s_max_20s",
+      "importance": 304
+    },
+    {
+      "feature": "cpu_pct_delta_20s",
+      "importance": 262
+    },
+    {
+      "feature": "cpu_pct_std_20s",
+      "importance": 216
+    },
+    {
+      "feature": "read_bytes_per_s",
+      "importance": 209
+    },
+    {
+      "feature": "write_bytes_per_s_max_5s",
+      "importance": 195
+    },
+    {
+      "feature": "cpu_pct_sum_20s",
+      "importance": 189
+    },
+    {
+      "feature": "inplace_ratio_slope_20s",
+      "importance": 155
+    },
+    {
+      "feature": "inplace_ratio_std_5s",
+      "importance": 148
+    },
+    {
+      "feature": "inplace_ratio_sum_5s",
+      "importance": 139
+    },
+    {
+      "feature": "cpu_pct_mean_20s",
+      "importance": 136
+    },
+    {
+      "feature": "cpu_pct_std_10s",
+      "importance": 92
+    },
+    {
+      "feature": "write_bytes_per_s_mean_20s",
+      "importance": 90
+    },
+    {
+      "feature": "write_bytes_per_s_std_20s",
+      "importance": 89
+    },
+    {
+      "feature": "inplace_ratio_delta_10s",
+      "importance": 87
+    },
+    {
+      "feature": "inplace_streak",
+      "importance": 73
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[Unit]
+Description=Ransomware lab ground-truth virtio listener
+After=default.target
+
+[Service]
+Type=simple
+WorkingDirectory=%h/Documents/project
+ExecStart=/usr/bin/env python3 %h/Documents/project/host_listener.py --socket /var/lib/libvirt/qemu/ransomsim.sock --log %h/Documents/project/ground_truth_log.jsonl
+Restart=always
+RestartSec=3
+NoNewPrivileges=true
+
+[Install]
+WantedBy=default.target

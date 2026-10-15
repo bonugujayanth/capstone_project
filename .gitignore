@@ -1,0 +1,13 @@
+.venv-ml/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Runtime logs and generated live output
+data/live_lightgbm_predictions.jsonl
+ground_truth_log.jsonl
+
+# Local/editor files
+.vscode/
+*.swp

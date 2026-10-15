@@ -1,0 +1,20 @@
+[0;1;32m●[0m ransomsim-listener.service - Ransomware lab ground-truth virtio listener
+     Loaded: loaded (]8;;file://chaithanya/home/chaithanya/.config/systemd/user/ransomsim-listener.service/home/chaithanya/.config/systemd/user/ransomsim-listener.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)
+     Active: [0;1;32mactive (running)[0m since Mon 2026-09-14 11:50:01 IST; 2h 4min ago
+   Main PID: 6626 (python3)
+      Tasks: 1 (limit: 16070)
+     Memory: 6.0M (peak: 6.5M)
+        CPU: 820ms
+     CGroup: /user.slice/user-1000.slice/user@1000.service/app.slice/ransomsim-listener.service
+             └─[0;38;5;245m6626 python3 /home/chaithanya/Documents/project/host_listener.py --socket /var/lib/libvirt/qemu/ransomsim.sock --log /home/chaithanya/Documents/project/ground_truth_log.jsonl[0m
+
+Sep 14 13:54:44 chaithanya env[6626]: [GROUND TRUTH] connecting to /var/lib/libvirt/qemu/ransomsim.sock
+Sep 14 13:54:44 chaithanya env[6626]: [GROUND TRUTH] connection unavailable: [Errno 13] Permission denied; retrying
+Sep 14 13:54:46 chaithanya env[6626]: [GROUND TRUTH] connecting to /var/lib/libvirt/qemu/ransomsim.sock
+Sep 14 13:54:46 chaithanya env[6626]: [GROUND TRUTH] connection unavailable: [Errno 13] Permission denied; retrying
+Sep 14 13:54:48 chaithanya env[6626]: [GROUND TRUTH] connecting to /var/lib/libvirt/qemu/ransomsim.sock
+Sep 14 13:54:48 chaithanya env[6626]: [GROUND TRUTH] connection unavailable: [Errno 13] Permission denied; retrying
+Sep 14 13:54:50 chaithanya env[6626]: [GROUND TRUTH] connecting to /var/lib/libvirt/qemu/ransomsim.sock
+Sep 14 13:54:50 chaithanya env[6626]: [GROUND TRUTH] connection unavailable: [Errno 13] Permission denied; retrying
+Sep 14 13:54:52 chaithanya env[6626]: [GROUND TRUTH] connecting to /var/lib/libvirt/qemu/ransomsim.sock
+Sep 14 13:54:52 chaithanya env[6626]: [GROUND TRUTH] connection unavailable: [Errno 13] Permission denied; retrying
