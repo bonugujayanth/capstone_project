@@ -60,11 +60,7 @@ python3 vm_telemetry_collector.py \
   --strategy run_full_inplace
 ```
 
-For unavailable source fields, opt into random values in the range `[0, 1]`:
 
-```bash
-python3 vm_telemetry_collector.py --vm-name lin --random-missing
-```
 
 Use this option only when synthetic fallback values are appropriate for the dataset.
 
